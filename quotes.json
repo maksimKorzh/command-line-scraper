@@ -1,0 +1,15 @@
+{
+    "url": "http://quotes.toscrape.com/",
+    "tags": [
+        {
+            "tag": "small",
+            "class": "author"
+        },
+        {
+            "tag": "a",
+            "class": "tag"
+        }
+    ],
+    "columns": ["author", "tag"],
+    "output": "quotes.csv"
+}
